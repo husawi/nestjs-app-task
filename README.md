@@ -26,8 +26,9 @@ $ docker-compose up
 ```bash
 PS:
 
-After Running The Docker Command, It Taks 5 Minumts Befor URL Fully Work.(I DONT KNOW WHAY) After all it works
-I Have used Apollo server in the backend and apollo cliant in the frontend
+- After Running The Docker Command, It Taks 5 Minumts Befor URL Fully Work.(I DONT KNOW WHAY) After all it works
+- I Have used Apollo server in the backend and apollo cliant in the frontend
+- I Have used Capacitor Library to Run The Camera
 ```
 
 
