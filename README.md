@@ -1,7 +1,10 @@
 
-## Run The Project test
+## Install Pakages and Run The Project test
 ```bash
-# development
+install node:22.13.0 in your machen
+
+$ npm install
+
 $ npm run start
 
 ```
@@ -10,6 +13,10 @@ $ npm run start
 ## Docker
 ```bash
 # Docker Compose
+
+After install Docker in your machen, run this in the terminal: docker pull firashusawi/nestjs-app-task
+
+after that run this the comment
 $ docker-compose up
 
 ```
