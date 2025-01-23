@@ -17,7 +17,7 @@ $ npm run start
 After install Docker in your machen, run this in the terminal: docker pull firashusawi/nestjs-app-task
 
 after that run this the comment
-$ docker-compose up
+$ docker run -d -p 3000:3000 firashusawi/nestjs-app-task
 
 ```
 
@@ -26,9 +26,9 @@ $ docker-compose up
 ```bash
 PS:
 
-- After Running The Docker Command, It Taks 5 Minumts Befor URL Fully Work.(I DONT KNOW WHAY) After all it works
 - I Have used Apollo server in the backend and apollo cliant in the frontend
 - I Have used Capacitor Library to Run The Camera
+- you can also run this command when you in the path of the project ($ docker-compose up)
 ```
 
 
