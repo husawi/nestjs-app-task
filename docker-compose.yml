@@ -1,0 +1,9 @@
+version: '2.31.0'
+services:
+  node-app:
+    container_name: nestjs-app-task-container
+    build: .
+    volumes:
+      - .:/nestjs-app-task
+    ports:
+      - '3000:3000'
