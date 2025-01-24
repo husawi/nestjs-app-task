@@ -33,7 +33,6 @@ PS:
 
 - I Have used Apollo server in the backend and apollo cliant in the frontend
 - I Have used Capacitor Library to Run The Camera
-- you can also run this command when you in the path of the project ($ docker-compose up)
 ```
 
 
