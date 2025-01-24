@@ -18,10 +18,10 @@ After install Docker in your machen, run this in the terminal: docker pull firas
 
 after that run this the comment
 
-USE
+USE this command when you in the path of the project
 $ docker-compose up
 
-OR
+OR use this command any whare
 $ docker run -d -p 3000:3000 firashusawi/nestjs-app-task
 
 ```
