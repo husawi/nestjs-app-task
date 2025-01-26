@@ -15,12 +15,12 @@ $ npm run start
 # Docker Compose
 
 After install Docker in your machen, run this in the terminal:
-$ docker pull firashusawi/nestjs-app-task
+$ docker pull firashusawi/nestjs-app-task:v1.2.0
 
 after that run this the comment
 
 USE this command when you in the path of the project
-$ docker-compose up
+$ docker-compose up --build
 
 ```
 
