@@ -13,7 +13,7 @@ export class StoreImgTestService {
     const { createReadStream, filename, mimetype, encoding } = await file;
 
 
-    const filePath = path.join(__dirname,'../../src/', 'uploads', `${filename}.${mimetype}`);
+    const filePath = path.join(__dirname,'../', 'uploads', `${filename}.${mimetype}`);
 
     const stream =  createReadStream();
 

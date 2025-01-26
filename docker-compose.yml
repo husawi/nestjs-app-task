@@ -1,9 +1,12 @@
-version: '2.31.0'
 services:
-  node-app:
+  nestjs-app:
     container_name: nestjs-app-task-container
-    build: .
-    volumes:
-      - .:/nestjs-app-task
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: firashusawi/nestjs-app-task:v1.2.0
     ports:
       - '3000:3000'
+    volumes:
+      - .:/nestjs-app-task
+    command: node dist/main.js
