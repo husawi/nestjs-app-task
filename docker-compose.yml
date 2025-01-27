@@ -4,9 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: firashusawi/nestjs-app-task:v1.2.0
+    image: firashusawi/nestjs-app-task:v1.17.0
     ports:
       - '3000:3000'
     volumes:
-      - .:/nestjs-app-task
-    command: node dist/main.js
+      - .:/dist
+    command: node main.js

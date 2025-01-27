@@ -3,9 +3,15 @@
 ```bash
 install node:22.13.0 in your machen
 
+$ git clone https://github.com/husawi/nestjs-app-task.git
+
+$ cd /nestjs-app-task
+
 $ npm install
 
-$ npm run start
+$ npm run build
+
+$ docker compose up OR docker-compose up
 
 ```
 
@@ -15,12 +21,16 @@ $ npm run start
 # Docker Compose
 
 After install Docker in your machen, run this in the terminal:
-$ docker pull firashusawi/nestjs-app-task:v1.2.0
 
-after that run this the comment
+Choose the Docker image architecture depending on your operating system,
+linux/amd64,linux/arm64
+ 
+Replace * according to your system that you have OR remove (--platform) flag if you dont need it
+$ docker pull --platform=* firashusawi/nestjs-app-task:v1.17.0
 
 USE this command when you in the path of the project
-$ docker-compose up --build
+docker run -p 3000:3000 firashusawi/nestjs-app-task:v1.17.0
+
 
 ```
 

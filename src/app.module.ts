@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { Module } from 'node_modules7/@nestjs/common';
 import { AppController } from './app.controller';
 import { GraphQLModule } from '@nestjs/graphql';
 import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';

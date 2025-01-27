@@ -6,7 +6,6 @@ import * as express from 'express';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  console.log(__dirname)
   app.enableCors();
   app.use('/', express.static(join(__dirname, 'ionic-app')));
   app.use(graphqlUploadExpress({ maxFileSize: 1000000, maxFiles: 10 }));

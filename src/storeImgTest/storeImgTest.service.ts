@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from 'node_modules7/@nestjs/common';
 import { FileUpload } from 'graphql-upload';
 import * as fs from 'fs';
 import * as path from 'path';
