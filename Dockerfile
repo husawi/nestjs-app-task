@@ -1,6 +1,6 @@
 FROM node:22.13.0-alpine
 
-WORKDIR /dist
+WORKDIR /
 
 COPY package.json .
 

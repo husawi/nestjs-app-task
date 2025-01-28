@@ -1,4 +1,4 @@
-import { Injectable } from 'node_modules7/@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { FileUpload } from 'graphql-upload';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -13,7 +13,7 @@ export class StoreImgTestService {
     const { createReadStream, filename, mimetype, encoding } = await file;
 
 
-    const filePath = path.join(__dirname,'../', 'uploads', `${filename}.${mimetype}`);
+    const filePath = path.join(__dirname,'../../src/', 'uploads', `${filename}.${mimetype}`);
 
     const stream =  createReadStream();
 
